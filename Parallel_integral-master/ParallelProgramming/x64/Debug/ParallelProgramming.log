@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(55,16): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(75,16): warning C4244: return: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(91,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(115,70): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\reduce.h(78,27): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(123): message : выполняется компиляция ссылки на экземпляр шаблон функции "auto reduce_par_2<integrate_cpp_reduce_2::<lambda_1>,float(__cdecl *)(float),double>(binary_fn,unary_fn,ElementType,ElementType,ElementType,ElementType)"
+          with
+          [
+              binary_fn=integrate_cpp_reduce_2::<lambda_1>,
+              unary_fn=float (__cdecl *)(float),
+              ElementType=double
+          ]
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\reduce.h(88,42): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\cpp.h(123,113): warning C4244: return: преобразование "ElementType" в "float", возможна потеря данных
+          with
+          [
+              ElementType=double
+          ]
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\omp.h(92,21): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\omp.h(113,21): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\hp\source\repos\Parallel_integral-master\ParallelProgramming\omp.h(115,19): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+  ParallelProgramming.vcxproj -> C:\Users\hp\source\repos\Parallel_integral-master\x64\Debug\ParallelProgramming.exe
